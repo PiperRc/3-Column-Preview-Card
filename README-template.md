@@ -35,6 +35,7 @@ Users should be able to:
 ### Links
 
 -[Solution](https://github.com/PiperRc/3-Column-Preview-Card).
+
 -[Live Site URL](https://piperrc.github.io/3-Column-Preview-Card/).
 
 ## My process
