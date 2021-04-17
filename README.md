@@ -53,13 +53,17 @@ Firstly, I got better at using flexbox and I learnt things about flexbox that I 
 I also realized that I need a review padding because I could not get the words to line up exactly it appears in the solution.
 
 
-
+EDIT: (CHANGED ON APRIL 17TH 2021). Per advice, I changed the height: 100vh; to min-height:100vh.
+I changed the padding and focused more on width to get the words to fit the way I need.
+I need to review responsive design
 
 
 
 ### Continued development
 
 -padding, specifically to making words align the way you want them
+-EDIT: (CHANGED ON APRIL 17TH 2021): Responsive design
+(
 
 
 ### Useful resources
