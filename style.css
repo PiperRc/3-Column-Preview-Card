@@ -1,17 +1,15 @@
-.container {
+main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
 
-	display: flex;
-	min-height: 100vh;
-	justify-content: center;
-	align-items: center;
-	padding-left: 200px;
-	padding-right: 200px;
 }
 
 .sedans {
-	background-color:hsl(31, 77%, 52%)*/;
-	border-top-left-radius: 5%;
-	border-bottom-left-radius: 5%;
+	background-color:hsl(31, 77%, 52%);
+	border-top-left-radius: 1%;
+	border-bottom-left-radius: 1%;
 }
 
 .suvs {
@@ -20,8 +18,8 @@
 
 .luxury {
 	background-color: hsl(179, 100%, 13%);
-	border-top-right-radius: 5%;
-	border-bottom-right-radius: 5%;
+	border-top-right-radius: 1%;
+	border-bottom-right-radius: 1%;
 }
 
 h3,
@@ -29,10 +27,24 @@ p {
 	color: hsl(0, 0%, 95%);
 }
 
+.sedans p{
+	width:220px;
+}
+
+.suvs p{
+	width:225px;
+
+	
+}
+.luxury p{
+ width:225px;
+
+}
+
 p {
-	padding-bottom: 50px;
-	width: 150px;
+	
 	font-family: 'Lexend Deca', sans-serif;
+	padding-bottom: 50px;
 }
 
 h3 {
@@ -43,6 +55,7 @@ h3 {
 
 button {
 	background-color: hsl(0, 0%, 95%);
+	border-color:white;
 	border-radius: 50px 50px 50px 50px;
 	padding-top: 7px;
 	padding-right: 20px;
@@ -71,14 +84,17 @@ button {
 
 .sedansButton:hover {
 	background-color: hsl(31, 77%, 52%);
+	border-color: white;
 }
 
 .suvsButton:hover {
 	background-color: hsl(184, 100%, 22%);
+	border-color: white;
 }
 
 .luxuryButton:hover {
 	background-color: hsl(179, 100%, 13%);
+	border-color: white;
 }
 
 .sedans,
@@ -101,29 +117,35 @@ img {
 padding-top:25px;
 
 }
-@media screen and (max-width: 375px) {
 
-	.container {
+@media screen and (max-width: 320px) {
+
+	main {
 		display: flex;
-		height: 100vh;
+		min-height: 100vh;
 		flex-direction: column;
 	}
 
 	.sedans {
-		border-top-left-radius: 5%;
-		border-top-right-radius: 5%;
+		border-top-left-radius: 1%;
+		border-top-right-radius: 1%;
 		border-bottom-left-radius: 0;
 	}
 
 	.luxury {
-		border-bottom-right-radius: 5%;
-		border-bottom-left-radius: 5%;
+		border-bottom-right-radius: 1%;
+		border-bottom-left-radius: 1%;
 		border-top-right-radius: 0;
 	}
+
+	
 	.attribution{
 	
 		padding-top: 100px;
+		
 	
 		
 	}
+	
 }
+
