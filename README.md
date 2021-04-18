@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](https://github.com/PiperRc/3-Column-Preview-Card/blob/main/%20screenshot.png)
+![screenshot](https://github.com/PiperRc/3-Column-Preview-Card/blob/main/screenshot.png)
 
 
 ### Links
