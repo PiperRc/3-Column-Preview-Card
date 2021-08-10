@@ -1,0 +1,133 @@
+/*	font-family: 'Lexend Deca', sans-serif;*/
+/*font-family: 'Big Shoulders Display', cursive;*/
+
+body{
+	display:flex;
+	justify-content: center;
+}
+
+#container{
+	
+	width:375px;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	
+
+		/*ask why min-width:375px doesnt work*/
+	/*why doesnt border radius work*/
+	
+
+}
+
+section{
+	border:1px solid black;
+}
+
+
+.sedans main,.suvs main, .luxury main{
+padding-left: 4rem;
+}
+
+h1{
+
+font-family: 'Big Shoulders Display', cursive;
+font-size:3rem;
+color:hsl(0, 0%, 95%);
+}
+
+
+p{
+	font-family: 'Lexend Deca', sans-serif;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedans{
+background-color: hsl(31, 77%, 52%);
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+}
+
+.luxury{
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius:8px;
+}
+
+
+.suvs{
+background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+background-color: hsl(179, 100%, 13%);
+
+}
+
+.sedans p,.suvs p{
+	width:16rem;
+}
+
+.luxury p{
+	width:15rem;
+}
+
+.sedans p,.suvs p,.luxury p{
+	padding-bottom: 1rem;
+}
+
+.sedans img,.luxury img,.suvs img{
+	padding-top:48px;
+}
+button{
+	border-radius:30px;
+	width:150px;
+	padding-top:10px;
+	padding-bottom: 10px; 
+	background-color: hsl(0, 0%, 95%);
+	cursor: pointer;
+
+	
+
+}
+
+
+
+#sedans-button{
+	color:hsl(31, 77%, 52%);
+
+}
+
+#sedans-button:hover{
+	background-color: hsl(31, 77%, 52%);
+	color: hsl(0, 0%, 95%);
+}
+
+
+
+#suvs-button{
+color:hsl(184, 100%, 22%);
+
+}
+#suvs-button:hover{
+	background-color: hsl(184, 100%, 22%);
+	color: hsl(0, 0%, 95%);
+	
+
+}
+
+
+#luxury-button{
+	color:hsl(179, 100%, 13%);
+
+}
+
+#luxury-button:hover{
+background-color: hsl(179, 100%, 13%);
+color: hsl(0, 0%, 95%);
+
+
+}
+
+section div{
+	padding-bottom: 3rem;
+}
+
