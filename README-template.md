@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of desktop image](https://github.com/PiperRc/3-Column-Preview-Card/blob/main/screenshot.png)
+![Screenshot of desktop image](https://github.com/PiperRc/3-Column-Preview-Card/blob/main/Screenshot.png)
 
 
 ### Links
