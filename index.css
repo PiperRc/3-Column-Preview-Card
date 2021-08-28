@@ -1,3 +1,5 @@
+
+ 
 /*	font-family: 'Lexend Deca', sans-serif;*/
 /*font-family: 'Big Shoulders Display', cursive;*/
 
@@ -19,9 +21,9 @@ section {
 }
 
 
-.sedans main,
-.suvs main,
-.luxury main {
+.sedans article,
+.suvs article,
+.luxury article {
 	padding-left: 4rem;
 }
 
@@ -155,16 +157,16 @@ section div {
 	}
 
 
-	.sedans main {
+	.sedans article {
 		padding: 0 1rem 0 2rem;
 	}
 
 
-	.suvs main {
+	.suvs article {
 		padding: 0 2rem 0 2rem;
 	}
 
-	.luxury main {
+	.luxury article {
 		padding: 0 2rem 0 2rem;
 	}
 
